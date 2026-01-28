@@ -19,11 +19,12 @@ const mobiles = [
     price: 470000,
     category: "premium",
     image: iphone17Img,
+    color: "#f0f0f0",
     specs: {
       storage: "256GB",
-      camera: "120fps ya 240fps",
-      battery: "100Health",
-      batteryTimeing: "2 day",
+      camera: "120fps / 240fps",
+      battery: "100%",
+      batteryTiming: "2 Days",
     },
   },
   {
@@ -33,11 +34,12 @@ const mobiles = [
     price: 435000,
     category: "premium",
     image: SamsungImg,
+    color: "#eef2ff",
     specs: {
       storage: "512GB",
-      camera: "24fps, 4K",
+      camera: "4K Video",
       battery: "100%",
-      batteryTimeing: "2 days",
+      batteryTiming: "2 Days",
     },
   },
   {
@@ -47,11 +49,12 @@ const mobiles = [
     price: 205000,
     category: "premium",
     image: oneplus12Img,
+    color: "#ecfeff",
     specs: {
       ram: "12GB",
       storage: "256GB",
       battery: "100%",
-      batteryTimeing: "4 days",
+      batteryTiming: "4 Days",
     },
   },
   {
@@ -61,6 +64,7 @@ const mobiles = [
     price: 96999,
     category: "mid-range",
     image: GoogleImg,
+    color: "#fefce8",
     specs: {
       storage: "256GB",
       camera: "50 MP",
@@ -74,11 +78,12 @@ const mobiles = [
     price: 300000,
     category: "premium",
     image: google10proImg,
+    color: "#f0fdf4",
     specs: {
       storage: "128GB",
       camera: "48 MP",
       battery: "100%",
-      batteryTimeing: "3 days",
+      batteryTiming: "3 Days",
     },
   },
   {
@@ -88,10 +93,11 @@ const mobiles = [
     price: 240000,
     category: "mid-range",
     image: oppofindx9proImg,
+    color: "#fff7ed",
     specs: {
       ram: "8GB",
       storage: "128GB",
-      camera: "200 MP",
+      camera: "200 MP",
       battery: "100%",
     },
   },
@@ -102,6 +108,7 @@ const mobiles = [
     price: 140000,
     category: "mid-range",
     image: vivov60Img,
+    color: "#fdf2f8",
     specs: {
       ram: "4GB",
       storage: "64GB",
@@ -116,10 +123,11 @@ const mobiles = [
     price: 229999,
     category: "mid-range",
     image: xiaomi15Img,
+    color: "#f0f9ff",
     specs: {
       ram: "6GB",
       storage: "128GB",
-      camera: "32 MP",
+      camera: "32 MP",
       battery: "100%",
     },
   },
@@ -127,13 +135,14 @@ const mobiles = [
     id: 9,
     name: "Honor Wing",
     brand: "Honor",
-    price: 187999 ,
+    price: 187999,
     category: "mid-range",
     image: honorwinImg,
+    color: "#faf5ff",
     specs: {
       ram: "8GB",
       storage: "128GB",
-      camera: "12 MP",
+      camera: "12 MP",
       battery: "100%",
     },
   },
@@ -144,10 +153,11 @@ const mobiles = [
     price: 67000,
     category: "budget",
     image: tecnocamonImg,
+    color: "#f8fafc",
     specs: {
       ram: "6GB",
       storage: "256GB",
-      camera: "64 MP",
+      camera: "64 MP",
       battery: "100%",
     },
   },
@@ -158,10 +168,11 @@ const mobiles = [
     price: 30000,
     category: "budget",
     image: lavablazeduo3Img,
+    color: "#fff1f2",
     specs: {
       ram: "12GB",
       storage: "512GB",
-      camera: "8 MP",
+      camera: "8 MP",
       battery: "100%",
     },
   },
@@ -172,13 +183,15 @@ const mobiles = [
     price: 22000,
     category: "budget",
     image: infinixnoteedgeImg,
+    color: "#ecfeff",
     specs: {
       ram: "6GB",
       storage: "128GB",
-      camera: "13 MP",
+      camera: "13 MP",
       battery: "100%",
     },
   },
 ];
 
 export default mobiles;
+ 
