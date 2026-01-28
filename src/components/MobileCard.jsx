@@ -53,6 +53,7 @@ function MobileCard({ mobile, addToCart }) {
           {mobile.specs?.storage && <span>💾 {mobile.specs.storage}</span>}
           {mobile.specs?.camera && <span>📷 {mobile.specs.camera}</span>}
           {mobile.specs?.battery && <span>🔋 {mobile.specs.battery}</span>}
+          {mobile.specs?.batteryTiming && <span>📱 {mobile.specs.batteryTiming}</span>}
         </div>
 
         {/* Price */}

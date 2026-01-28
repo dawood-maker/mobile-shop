@@ -1,9 +1,9 @@
 
 function SearchFilter({
-  searchTerm,
-  setSearchTerm,
-  selectedCategory,
-  setSelectedCategory,
+  searchTerm, //ya input type ko us kara ha 
+  setSearchTerm,  //function, input change hone par searchTerm update karega
+  selectedCategory,  //abhi ka selected category (all, premium, etc.)   
+  setSelectedCategory, //unction, category select hone par update karega.
 }) {
   const categories = ["all", "premium", "mid-range", "budget"];
 

@@ -24,7 +24,7 @@ const mobiles = [
       storage: "256GB",
       camera: "120fps / 240fps",
       battery: "100%",
-      batteryTiming: "2 Days",
+     batteryTiming: "1 Days",
     },
   },
   {
