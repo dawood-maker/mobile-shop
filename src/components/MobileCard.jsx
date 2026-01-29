@@ -103,6 +103,7 @@ export function MobileList({ addToCart }) {
           />
         ))}
       </div>
+      <h1>dawoodshahzda</h1>
     </section>
   );
 }
