@@ -61,7 +61,7 @@ function MobileCard({ mobile, addToCart }) {
           ₹{mobile.price.toLocaleString("en-IN")}
         </h2>
 
-        {/* Add to Card Button */}
+        {/* Add to Cart Button */}
         {addToCart && (
           <button
             onClick={() => addToCart(mobile)}
@@ -72,7 +72,7 @@ function MobileCard({ mobile, addToCart }) {
               transition shadow-md hover:shadow-lg
             "
           >
-            Add to Card
+            Add to Cart
           </button>
         )}
       </div>
